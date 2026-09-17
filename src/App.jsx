@@ -11,7 +11,7 @@ const App=()=>{
     <Intro Age={20} Email="mauryashrishti@gmail.com" contact={9834567231}/>
     {
       projects.map((project,index)=>(
-       <Project key={index} title={project[0].title} description={project[0].description}/>
+       <Project key={index} title={projects[0].title} description={projects[0].description}/>
       ))
     }
     </div>
